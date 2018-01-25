@@ -42,10 +42,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Cat.cs" />
     <Compile Include="DelegateClass.cs" />
+    <Compile Include="Dog.cs" />
     <Compile Include="GreetingClass.cs" />
+    <Compile Include="Mouse.cs" />
+    <Compile Include="People.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Baby.cs" />
+    <Compile Include="Stealer.cs" />
     <Compile Include="Student.cs" />
   </ItemGroup>
   <ItemGroup>

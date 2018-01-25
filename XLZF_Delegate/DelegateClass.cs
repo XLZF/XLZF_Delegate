@@ -44,6 +44,17 @@ namespace XLZF_Delegate
             method.Invoke(3, 4);//Invoke 调用
             method(3, 4);//直接调用
             method.BeginInvoke(3, 5, null, null);//异步调用
+
+            //多播委托 多播委托的价值：按顺序执行
+            method += Plus;
+            method += Plus;
+            method += Plus;
+            method += Plus;
+            method -= Plus;
+
+            method.GetInvocationList();//找出method中委托的多少方法
+
+            
         }
 
         private static void Plus(int x, int y)
