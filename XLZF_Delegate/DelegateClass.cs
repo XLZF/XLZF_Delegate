@@ -22,7 +22,7 @@ namespace XLZF_Delegate
 
             Console.WriteLine("没有委托就没有异步");
 
-            Console.WriteLine("对扩展开发，对修改封闭");
+            Console.WriteLine("对扩展开发，对修改封闭"); 
 
             Console.WriteLine("解耦，体现单一职责");
 
