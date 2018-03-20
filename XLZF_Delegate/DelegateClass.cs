@@ -24,7 +24,7 @@ namespace XLZF_Delegate
 
             Console.WriteLine("对扩展开发，对修改封闭"); 
 
-            Console.WriteLine("解耦，体现单一职责");
+            Console.WriteLine("解耦，体现单一职责"); 
 
             Console.WriteLine("符合设计模式原则");
 
